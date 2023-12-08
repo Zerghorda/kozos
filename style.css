@@ -18,7 +18,7 @@ body{
   }
 
 main {
-  display: grid;
+    display: grid;
   grid-template-areas:
     "h h h"
     "a a n"
@@ -47,12 +47,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-area: f;
-}
-
-#manok {
-  background-image: url(kepek/manoBg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .thColor {
   color: white;
