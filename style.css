@@ -14,6 +14,9 @@ body{
 }
 main{
     size: 70%;
+    grid-template-areas: "h h h"
+                         "a a n"
+                         "f f f";
 }
 header {
   display: grid;
