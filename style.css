@@ -15,6 +15,7 @@ body{
 
 }
 main {
+    display: grid;
   grid-template-areas:
     "h h h"
     "a a n"
