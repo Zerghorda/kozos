@@ -15,6 +15,29 @@ body{
 main{
     size: 70%;
 }
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: h;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: a;
+
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-area: n;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: f;
+}
+
 #manok{
     background-image: url(kepek/manoBg.png);
     background-repeat: no-repeat;
