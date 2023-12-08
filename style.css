@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 #tablaBG {
   background-image: url(kepek/tabla_htlm_Bg.png);
@@ -9,9 +10,15 @@
   background-size: cover;
 }
 body{
-   
+   margin: auto;
 }
 main{
     size: 70%;
+}
+#manok{
+    background-image: url(kepek/manoBg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
