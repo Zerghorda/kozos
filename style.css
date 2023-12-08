@@ -1,4 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
+#tablaBG {
+  background-image: url(kepek/tabla_htlm_Bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body{
+   
+}
+main{
+    size: 70%;
+}
+
