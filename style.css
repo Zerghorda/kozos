@@ -9,14 +9,14 @@
   background-attachment: fixed;
   background-size: cover;
 }
-body{
-   margin: auto;
+body {
+  margin: auto;
 }
-main{
-    size: 70%;
-    grid-template-areas: "h h h"
-                         "a a n"
-                         "f f f";
+main {
+  grid-template-areas:
+    "h h h"
+    "a a n"
+    "f f f";
 }
 header {
   display: grid;
@@ -28,9 +28,9 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-area: a;
-
 }
 nav {
+  background-color: blue;
   display: grid;
   grid-template-columns: 1fr;
   grid-area: n;
@@ -41,10 +41,8 @@ footer {
   grid-area: f;
 }
 
-#manok{
-    background-image: url(kepek/manoBg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+#manok {
+  background-image: url(kepek/manoBg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
