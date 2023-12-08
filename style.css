@@ -19,16 +19,21 @@ body{
 
 main {
     display: grid;
-  grid-template-areas:
-    "h h h"
-    "a a n"
-    "f f f";
-}
+    grid-template-areas:
+            "h h h"
+            "a a n"
+            "f f f";
+    background-color: #990000;    
+     
+    }
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-area: h;
   text-align: center;
+  color: white;
+  border: solid 2px white;
+  
   
 }
 
@@ -36,19 +41,26 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-area: a;
+  border: solid 2px white;
 }
 nav {
   background-color: blue;
   display: grid;
   grid-template-columns: 1fr;
   grid-area: n;
+  border: solid 2px white;
 }
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-area: f;
+  border: solid 2px white;
+  
 }
 .thColor {
   color: white;
 }
 
+table {
+  border-collapse: collapse;
+}
