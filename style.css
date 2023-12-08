@@ -9,31 +9,25 @@
   background-attachment: fixed;
   background-size: cover;
 }
-body{
-
-   margin: auto;
-   background-image: url(kepek/R.jpg);
-   max-width: 800px;
-   margin: auto;
-  }
+body {
+  margin: auto;
+  background-image: url(kepek/R.jpg);
+  max-width: 800px;
+  margin: auto;
+}
 
 main {
     display: grid;
-    grid-template-areas:
-            "h h h"
-            "a a n"
-            "f f f";
-    background-color: #990000;    
-     
-    }
+  grid-template-areas:
+    "h h h"
+    "a a n"
+    "f f f";
+}
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-area: h;
   text-align: center;
-  color: white;
-  border: solid 2px white;
-  
   
 }
 
@@ -60,7 +54,5 @@ footer {
 .thColor {
   color: white;
 }
+.block{
 
-table {
-  border-collapse: collapse;
-}
